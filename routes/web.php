@@ -25,3 +25,5 @@ Route::get('/register', function () {
 
 
 Route::post('/register', [UserRegistrationController::class, 'store']);
+
+Route::post('/pay', [PayController::class, 'pay']);
