@@ -34,6 +34,8 @@ class ConverKit extends EmailProvider{
      */
     public function sendEmail(User $user):void
     {
-
+        return throw new \Exception('Throw new error to violate liskov substitution principle.');
     }
+
+
 }

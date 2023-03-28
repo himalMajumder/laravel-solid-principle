@@ -37,4 +37,15 @@ class MailChimp extends EmailProvider{
     {
 
     }
+
+    /**
+     * new Function
+     *
+     * @param User $user
+     * @return void
+     */
+    public function newFunction()
+    {
+        //Violate Liskov Substitution Principle
+    }
 }
